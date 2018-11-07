@@ -12,3 +12,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.oddEvenBox {
+  margin-top: 20px;
+  border-style: groove;
+}
+
+.evenNumsLabel,
+.oddNumsLabel {
+  margin-top: 10px;
+  border-radius: 10%;
+  border-style: dotted;
+  padding: 10px;
+}
+
+.evenNumsLabel {
+  margin-left: 38%;
+  float: left;
+  background-color: aquamarine;
+}
+
+.oddNumsLabel {
+  float: right;
+  margin-right: 38%;
+  background-color: burlywood;
+}
